@@ -1,0 +1,27 @@
+# Compiled files
+/target/
+**/*.rs.bk
+
+# Output of cargo doc
+/target/doc/
+
+# .env files
+.env
+
+# Output files for .rlib and .rmeta files (from the metadata crate feature)
+*.rmeta
+*.rlib
+
+# .rds and .rmeta files (from the metadata and analysis crate features, respectively)
+**/*.rds
+**/*.rmeta
+
+# Editor specific files
+*.swp
+*.swo
+*.swn
+*.idea/
+*.vscode/
+*.sublime-*
+*.iml
+.DS_Store
